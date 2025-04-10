@@ -145,3 +145,43 @@ a {
     padding-left: 20%;
     padding-right: 20%;
 }
+
+@media (max-width: 375px) {
+    .work {
+      flex-direction: column-reverse;
+    }
+  
+    .item {
+      width: 100%;
+      flex: 1;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .grid-nav {
+        list-style-type: none;
+        list-style: none;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: repeat(4,auto);
+    }
+      
+    .project {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .text-box {
+      padding: 8%;
+    }
+  
+    .Professional-art {
+      grid-template-columns: 1fr;
+    }
+  
+    .art-print {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
