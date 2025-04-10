@@ -185,3 +185,22 @@ a {
       padding-right: 5%;
     }
   }
+
+  .about {
+    display: flex;
+  }
+
+  .item-about {
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+  .lang-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+  }
