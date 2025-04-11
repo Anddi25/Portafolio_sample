@@ -146,6 +146,26 @@ a {
     padding-right: 20%;
 }
 
+.about {
+    display: flex;
+    margin-bottom: 1%;
+  }
+
+  .item-about {
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+  .lang-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+  }
+
 @media (max-width: 375px) {
     .work {
       flex-direction: column-reverse;
@@ -184,23 +204,16 @@ a {
       padding-left: 5%;
       padding-right: 5%;
     }
-  }
 
-  .about {
-    display: flex;
-  }
 
-  .item-about {
-    box-sizing: border-box;
-    width: 50%;
+    .about {
+     flex-direction: column;
+    }
+  
+    .item-about {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
   }
-
-  .lang-box {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 10%;
-  }
+  
