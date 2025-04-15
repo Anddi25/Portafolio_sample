@@ -140,6 +140,26 @@ a {
     padding-right: 20%;
 }
 
+.about {
+    display: flex;
+    margin-bottom: 1%;
+  }
+
+  .item-about {
+    box-sizing: border-box;
+    width: 50%;
+  }
+
+  .lang-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+  }
+
 @media (max-width: 575px) {
     .work {
       flex-direction: column-reverse;
