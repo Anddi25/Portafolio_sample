@@ -166,6 +166,9 @@ a {
     text-align: center;
     display: flex;
     flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   form {
@@ -177,7 +180,7 @@ a {
 
   .form-item {
     margin: 1%;
-    width: 20%;
+    width: 30%;
   }
 
   .submit-bottom {
@@ -188,6 +191,10 @@ a {
     padding: 0.5%;
     font-weight: bold;
     border-radius: 8px;
+  }
+
+  textarea {
+    height: 150px;
   }
 
 @media (max-width: 575px) {
