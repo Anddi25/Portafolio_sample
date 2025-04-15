@@ -1,15 +1,20 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box}
 
-html {
-    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
-}
-
 body {
     font-family: 'Poppins', sans-serif;
 }  
 
 h1 {
     margin: 0;
+}
+
+li {
+    list-style-type: none;
+    list-style: none;
+}
+
+.Fist-page {
+    background-image: url(Img/Header\ bg@2x.png);
 }
 
 .nav {
@@ -21,8 +26,6 @@ h1 {
     list-style-type: none;
     list-style: none;
     display: flex;
-    /* border:10px solid red; */
-    /* min-height: 100vh; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -75,4 +78,110 @@ a {
     transition: transform 0.2s;
     cursor: pointer;
     margin: 5%;
+  }
+
+.work {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    gap: 5%;
+}
+
+.item{
+    flex: 1;
+}
+
+.text-work1 {
+    color: #344563;
+}
+
+.text-work2 {
+    color: #6b778c;
+}
+
+.little-bottom {
+    border-radius: 6px;
+    background-color: #ebebff;
+    font-size: clamp(8px, 5vw, 12px);
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #6070ff;
+}
+
+.project {
+    align-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 3px solid #6070ff;
+    color: #6070ff;
+    display: inline-block;
+    border-radius: 8px;
+    padding-top: 2px;
+}
+
+.menu {
+    height: 20px;
+    width: 20px;
+}
+
+.grid-nav {
+    list-style-type: none;
+    list-style: none;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,auto);
+}
+
+.Professional-art {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.art-print {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 375px) {
+    .work {
+      flex-direction: column-reverse;
+    }
+  
+    .item {
+      width: 100%;
+      flex: 1;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .grid-nav {
+        list-style-type: none;
+        list-style: none;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        grid-template-columns: repeat(4,auto);
+    }
+      
+    .project {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  
+    .text-box {
+      padding: 8%;
+    }
+  
+    .Professional-art {
+      grid-template-columns: 1fr;
+    }
+  
+    .art-print {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
   }
