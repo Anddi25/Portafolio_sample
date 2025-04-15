@@ -133,12 +133,6 @@ a {
     grid-template-columns: repeat(4,auto);
 }
 
-.Professional-art {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-}
-
 .art-print {
     display: flex;
     flex-direction: column;
@@ -146,7 +140,7 @@ a {
     padding-right: 20%;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 575px) {
     .work {
       flex-direction: column-reverse;
     }
