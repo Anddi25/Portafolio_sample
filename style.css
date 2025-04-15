@@ -160,6 +160,36 @@ a {
     padding: 10%;
   }
 
+  .contact {
+    background-color: #6070ff;
+    color: #ebebff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1%;
+  }
+
+  .form-item {
+    margin: 1%;
+    width: 20%;
+  }
+
+  .submit-bottom {
+    border: 0;
+    background:white;
+    width: 10%;
+    color: #6070ff;
+    padding: 0.5%;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+
 @media (max-width: 575px) {
     .work {
       flex-direction: column-reverse;
